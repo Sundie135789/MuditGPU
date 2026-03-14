@@ -1,0 +1,15 @@
+Started [GPU NAME] Development: 14th March 2026.
+Age: 12 years old.
+
+[GPU NAME] Specification sheet:
+
+Internal PLL Clock: 1 Gigahertz
+Shader cores: 8
+Registers Per Core: 256 x 32 bit
+Total Registers: 2048 Registers
+Total storage: 8 Kilobytes
+
+Goal as of 14th March 2026: Able to handle Projection Matrices, view matrices, simple rasterization, and fragment shading.
+
+
+
