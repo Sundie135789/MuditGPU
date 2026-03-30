@@ -1,0 +1,70 @@
+$date
+	Mon Mar 30 19:53:52 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_memory $end
+$var wire 32 ! read_data [31:0] $end
+$var reg 1 " clk $end
+$var reg 8 # read_address [7:0] $end
+$var reg 8 $ write_address [7:0] $end
+$var reg 32 % write_data [31:0] $end
+$var reg 1 & write_enable $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 8 ' read_address [7:0] $end
+$var wire 8 ( write_address [7:0] $end
+$var wire 32 ) write_data [31:0] $end
+$var wire 1 & write_enable $end
+$var reg 32 * read_data [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx *
+b11001000000000001100100000 )
+b0 (
+bx '
+1&
+b11001000000000001100100000 %
+b0 $
+bx #
+0"
+bx !
+$end
+#5000
+1"
+#10000
+0"
+b11111010000000001111101000 %
+b11111010000000001111101000 )
+b1 $
+b1 (
+#15000
+1"
+#20000
+0"
+b11100001000000010010110000 %
+b11100001000000010010110000 )
+b10 $
+b10 (
+#25000
+1"
+#30000
+0"
+b11111111100000000000000000000000 %
+b11111111100000000000000000000000 )
+b11 $
+b11 (
+#35000
+1"
+#40000
+0"

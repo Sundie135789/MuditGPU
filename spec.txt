@@ -1,24 +1,5 @@
-Started MuditGPU Development: 14th March 2026.
-Age: 12 years old.
-
-MuditGPU Specification sheet:
-
-Internal PLL Clock: 1 Gigahertz
-Shader cores: 8
-Registers Per Core: 256 x 32 bit
-Total Registers: 2048 Registers
-Total storage: 8 Kilobytes
-
-Instruction Set Architecture (ISA):
-Style: RISC
-Opcodes: 
-0000 = ADD   dest = A + B
-0001 = SUB	 dest = A - B
-0010 = MUL   dest = A * B
-0011 = LOAD  dest = memory[A]
-0100 = STORE memory[A] = B
-
-Goal as of 14th March 2026: Able to handle Projection Matrices, view matrices, simple rasterization, and fragment shading.
+Name: MuditCard
+Cores: 8
+Language: SystemVerilog
 
 
-//TODO understand it all, edit Makefile and run this. then move to creating a module "core".
